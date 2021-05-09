@@ -13,7 +13,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Digite um texto"
+        android:hint="Digite seu nome"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_texto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite seu sobrenome"
         android:inputType="textPersonName" />
 
     <Button
@@ -22,4 +30,15 @@
         android:layout_height="wrap_content"
         android:onClick="onClickBtnMostrar"
         android:text="Mostrar" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#5AD85F"
+        android:drawableLeft="@drawable/refresh"
+        android:onClick="onClickBtnLimpar"
+        android:text="Limpar" />
+
 </LinearLayout>
